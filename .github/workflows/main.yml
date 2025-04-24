@@ -33,7 +33,7 @@ jobs:
        azure-file-volume-share-name: todo
        azure-file-volume-account-name: storagelainus
        azure-file-volume-account-key: d/7NkdNKlTuaf6pwHHonSgV+7yFWp3xVvB7z4oolHDtW/8SAaJnqq01SKhan2hgbw9qFCK7xdmc6+ASt10rhNg==
-       azure-file-volume-mount-path: /azfiles
+       azure-file-volume-mount-path: /app
        name: getting-started-github
        location: 'west europe'
        ports: '3000'
