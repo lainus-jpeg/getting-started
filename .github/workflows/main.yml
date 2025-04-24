@@ -30,6 +30,10 @@ jobs:
        registry-login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
        registry-username: ${{ secrets.REGISTRY_USERNAME }}
        registry-password: ${{ secrets.REGISTRY_PASSWORD }}
+       azure-file-volume-share-name: todo
+       azure-file-volume-account-name: storagelainus
+       azure-file-volume-account-key: d/7NkdNKlTuaf6pwHHonSgV+7yFWp3xVvB7z4oolHDtW/8SAaJnqq01SKhan2hgbw9qFCK7xdmc6+ASt10rhNg==
+       azure-file-volume-mount-path: /azfiles
        name: getting-started-github
        location: 'west europe'
        ports: '3000'
